@@ -15,6 +15,7 @@ class Test_001_login:
         self.driver= set
         self.driver.get(self.baseUrl)
         act_title=self.driver.title
+        # add comment
         if act_title=="Your store. Login":
             assert True
             self.logger.info("******** Test Case Passed *******")
